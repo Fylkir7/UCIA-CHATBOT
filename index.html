@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Nutrição e Agricultura</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        #chat { border: 1px solid #ccc; padding: 10px; width: 400px; height: 300px; overflow-y: scroll; }
+        input, button { padding: 10px; margin-top: 10px; width: 300px; }
+    </style>
+</head>
+<body>
+    <h2>Chatbot - Nutrição e Agricultura Sustentável</h2>
+    <div id="chat"></div>
+    <input type="text" id="message" placeholder="Digite sua pergunta..." />
+    <button onclick="sendMessage()">Enviar</button>
+
+    <script>
+        function sendMessage() {
+            var message = document.getElementById("message").value;
+            var chat = document.getElementById("chat");
+            chat.innerHTML += "<div><strong>Você:</strong> " + message + "</div>";
+
+            fetch('/ask', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'message=' + encodeURIComponent(message)
+            })
+            .then(response => response.json())
+            .then(data => {
+                chat.innerHTML += "<div><strong>Bot:</strong> " + data.response + "</div>";
+                document.getElementById("message").value = "";
+            });
+        }
+    </script>
+</body>
+</html>
