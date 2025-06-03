@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "imunidade",
+      "exemplos": ["como melhorar a imunidade", "dicas para imunidade", "alimentos para imunidade"],
+      "resposta": ["Alimentos ricos em vitamina C e zinco são ideais para fortalecer a imunidade."]
+    },
+    {
+      "tag": "proteina_vegetal",
+      "exemplos": ["quais são as proteínas vegetais", "fontes de proteína vegetal", "alimentos com proteína vegetal"],
+      "resposta": ["Feijão, lentilha, soja e grão-de-bico são boas fontes de proteína vegetal."]
+    },
+    {
+      "tag": "emagrecimento",
+      "exemplos": ["como emagrecer", "quero perder peso", "dieta para emagrecer", "como secar a barriga", "dicas para perder gordura"],
+      "resposta": ["Para emagrecer, foque em déficit calórico, alimentação balanceada e exercícios físicos regulares."]
+    },
+    {
+      "tag": "ganho_de_massa",
+      "exemplos": ["como ganhar massa muscular", "dieta para ganhar massa", "o que comer para hipertrofia", "quero crescer na academia"],
+      "resposta": ["Consuma mais calorias do que gasta, priorize proteínas, faça treinos de força e durma bem."]
+    },
+    {
+      "tag": "alimentos_saudaveis",
+      "exemplos": ["o que são alimentos saudáveis", "dicas de alimentação saudável", "quais os melhores alimentos para a saúde"],
+      "resposta": ["Frutas, legumes, grãos integrais, proteínas magras e gorduras boas são ótimas opções."]
+    },
+    {
+      "tag": "jejum_intermitente",
+      "exemplos": ["jejum intermitente funciona?", "o que é jejum intermitente", "quais os benefícios do jejum"],
+      "resposta": ["O jejum intermitente pode ajudar no controle de peso e melhorar a sensibilidade à insulina."]
+    },
+    {
+      "tag": "agua",
+      "exemplos": ["quanta água devo beber", "benefícios da água", "por que beber água é importante"],
+      "resposta": ["Beber bastante água ajuda na digestão, energia, pele e saúde geral. Tente consumir pelo menos 2 litros por dia."]
+    },
+    {
+      "tag": "suplementos",
+      "exemplos": ["quais suplementos devo tomar", "suplementos para treinar", "suplementos para ganhar massa", "whey protein vale a pena?"],
+      "resposta": ["Suplementos como whey protein, creatina, BCAA e multivitamínicos podem ser úteis, mas sempre consulte um nutricionista."]
+    },
+    {
+      "tag": "vitaminas",
+      "exemplos": ["quais vitaminas preciso", "vitamina D serve para quê?", "falta de vitamina causa o quê?"],
+      "resposta": ["Vitaminas como D, C, B12 e A são essenciais para imunidade, energia e saúde geral."]
+    },
+    {
+      "tag": "metabolismo",
+      "exemplos": ["como acelerar o metabolismo", "o que deixa o metabolismo lento", "metabolismo rápido ajuda?"],
+      "resposta": ["Exercícios físicos, boa hidratação e proteínas na dieta ajudam a acelerar o metabolismo."]
+    },
+    {
+      "tag": "alimentacao_pre_treino",
+      "exemplos": ["o que comer antes do treino", "pré-treino natural", "alimentação para treinar"],
+      "resposta": ["Antes do treino, consuma carboidratos de fácil digestão e um pouco de proteína, como banana com pasta de amendoim ou pão com ovo."]
+    },
+    {
+      "tag": "alimentacao_pos_treino",
+      "exemplos": ["o que comer depois do treino", "pós-treino ideal", "alimento pós-academia"],
+      "resposta": ["No pós-treino, prefira proteínas e carboidratos para recuperação muscular, como frango com batata-doce ou whey com aveia."]
+    },
+    {
+      "tag": "fibras",
+      "exemplos": ["para que servem as fibras", "quais alimentos têm fibras", "alimentos ricos em fibras"],
+      "resposta": ["Fibras ajudam no funcionamento do intestino e na saciedade. Boas fontes incluem aveia, frutas com casca e vegetais."]
+    },
+    {
+      "tag": "gluten",
+      "exemplos": ["glúten faz mal?", "quem deve evitar glúten?", "o que é glúten?"],
+      "resposta": ["O glúten é uma proteína do trigo. Só deve ser evitado por pessoas com intolerância ou doença celíaca."]
+    },
+    {
+      "tag": "carboidratos",
+      "exemplos": ["carboidrato engorda?", "quais os melhores carboidratos", "preciso cortar carboidrato?"],
+      "resposta": ["Carboidratos são fonte de energia. Prefira os complexos, como arroz integral, aveia e batata-doce."]
+    },
+    {
+      "tag": "colesterol",
+      "exemplos": ["como baixar o colesterol", "colesterol alto, o que fazer?", "alimentos que aumentam o colesterol"],
+      "resposta": ["Evite alimentos ultraprocessados e frituras. Inclua aveia, azeite, frutas e legumes na dieta."]
+    },
+    {
+      "tag": "dieta_lowcarb",
+      "exemplos": ["o que é dieta low carb", "low carb funciona?", "quais alimentos low carb"],
+      "resposta": ["A dieta low carb reduz o consumo de carboidratos e prioriza proteínas e gorduras boas."]
+    },
+    {
+      "tag": "dieta_vegetariana",
+      "exemplos": ["dieta para vegetariano", "sou vegetariano, o que comer?", "vegetarianismo é saudável?"],
+      "resposta": ["Uma dieta vegetariana bem planejada pode ser muito saudável e completa."]
+    },
+    {
+      "tag": "dieta_vegana",
+      "exemplos": ["sou vegano, como montar uma dieta?", "dieta vegana funciona?", "o que vegano come?"],
+      "resposta": ["Veganos podem comer vegetais, frutas, leguminosas, grãos e oleaginosas."]
+    },
+    {
+      "tag": "intolerancia_lactose",
+      "exemplos": ["tenho intolerância à lactose", "alimentos sem lactose", "o que evitar com intolerância à lactose?"],
+      "resposta": ["Evite leite e derivados. Procure por versões sem lactose ou alternativas vegetais."]
+    },
+    {
+      "tag": "alergia_gluten",
+      "exemplos": ["sou celíaco", "quais alimentos têm glúten", "o que evitar com alergia ao glúten"],
+      "resposta": ["Evite trigo, cevada e centeio. Procure por alimentos certificados como 'sem glúten'."]
+    },
+    {
+      "tag": "hidratos",
+      "exemplos": ["hidratar é importante?", "como me manter hidratado?", "bebidas para hidratar"],
+      "resposta": ["Água é a melhor forma de hidratação. Evite refrigerantes e bebidas açucaradas."]
+    },
+    {
+      "tag": "ansiedade_alimentar",
+      "exemplos": ["como controlar a fome emocional", "ansiedade me faz comer", "comer por ansiedade"],
+      "resposta": ["Tente identificar gatilhos emocionais e mantenha uma alimentação equilibrada. Procure apoio profissional se necessário."]
+    },
+    {
+      "tag": "saciedade",
+      "exemplos": ["como me sentir satisfeito comendo pouco", "alimentos que saciam", "como evitar fome"],
+      "resposta": ["Fibras e proteínas ajudam a aumentar a saciedade. Evite alimentos ultraprocessados."]
+    },
+    {
+      "tag": "fast_food",
+      "exemplos": ["fast food faz mal?", "posso comer fast food às vezes?", "qual o problema do fast food?"],
+      "resposta": ["Fast food é rico em sódio, gordura e açúcar. O ideal é consumir com moderação."]
+    },
+    {
+      "tag": "alimentos_ultraprocessados",
+      "exemplos": ["o que são alimentos ultraprocessados?", "quais alimentos evitar?", "alimentos industrializados fazem mal?"],
+      "resposta": ["Ultraprocessados geralmente têm aditivos, corantes e conservantes. Prefira comida de verdade."]
+    },
+    {
+      "tag": "cafe_da_manha",
+      "exemplos": ["ideias de café da manhã saudável", "o que comer de manhã", "café da manhã para dieta"],
+      "resposta": ["Opções saudáveis incluem frutas, ovos, pão integral e aveia."]
+    },
+    {
+      "tag": "reducao_acucar",
+      "exemplos": ["como reduzir o açúcar", "açúcar faz mal?", "como adoçar sem açúcar?"],
+      "resposta": ["Tente usar frutas, mel ou adoçantes naturais como stevia."]
+    },
+    {
+      "tag": "colacao",
+      "exemplos": ["devo fazer lanche da tarde?", "o que comer no lanche?", "lanche saudável"],
+      "resposta": ["Boas opções: frutas, iogurte natural, oleaginosas ou sanduíche integral."]
+    },
+    {
+      "tag": "dormir_bem",
+      "exemplos": ["alimentação influencia no sono?", "o que comer para dormir melhor?", "como dormir bem?"],
+      "resposta": ["Evite cafeína à noite e coma alimentos leves no jantar. Maracujá e banana ajudam no sono."]
+    },
+    {
+      "tag": "alimentacao_infantil",
+      "exemplos": ["como alimentar meu filho bem", "comida saudável para crianças", "nutrição infantil"],
+      "resposta": ["Ofereça frutas, legumes, grãos integrais e evite excesso de açúcar."]
+    }
+  ]
+}
